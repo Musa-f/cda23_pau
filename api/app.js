@@ -14,7 +14,7 @@ const user_router = require('./routes/user_r')
 
 /*** ROUTAGE */
 
-app.get('/', (req, res) => res.send("Ratatouf is online !!!! Mais c'est pas la bonne image"))
+app.get('/', (req, res) => res.send("Ratatouf is online !!! Mais c'est pas la bonne image"))
 
 app.use('/users', user_router)
 
